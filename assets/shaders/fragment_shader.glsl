@@ -21,7 +21,8 @@ uniform vec3 eyePos;
 uniform vec4 vertSpecular;
 
 uniform bool bUseTextures; 
-uniform bool bLighted;
+uniform bool bIsSkybox;
+uniform bool bIsLit;
 
 uniform vec4 ambientLight;
 
@@ -30,11 +31,8 @@ uniform sampler2D textSampler2D_00;
 uniform sampler2D textSampler2D_01;
 uniform sampler2D textSampler2D_02;
 uniform sampler2D textSampler2D_03;
-
-uniform vec4 texMixRatios;
-
-uniform bool bIsSkybox;
 uniform samplerCube skyboxCubeTexture;
+uniform vec4 texMixRatios;
 
 in vec4 vertColor;
 in vec4 vertNormal;
@@ -67,7 +65,7 @@ void main() {
         finalTextRGBA = vec4(texMix.rgb * finalTextRGBA.rgb, texMix.a * finalTextRGBA.a);
 	}
 
-	if(!bLighted){
+	if(!bIsLit){
 		pixelColour = finalTextRGBA;
 		return;
 	}
