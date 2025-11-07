@@ -12,7 +12,7 @@ int main() {
 	//_CrtSetBreakAlloc();
 #endif
 	
-	Engine engine;
+	Starlet::Engine::Engine engine;
 	engine.setAssetPaths(std::string(ASSET_DIR));
 
 	if (!engine.initialize(1920, 1080, "Starlet Project")) 
