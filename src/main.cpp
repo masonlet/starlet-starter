@@ -4,7 +4,7 @@
 	#include <cstdlib>
 #endif
 
-#include <StarletEngine/engine.hpp>
+#include <starlet-engine/engine.hpp>
 
 int main() {
 #ifndef NDEBUG

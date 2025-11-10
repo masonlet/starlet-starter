@@ -6,8 +6,8 @@ This project uses **CMake**. Follow these steps to build:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Masonlet/StarletStarter.git
-cd StarletStarter
+git clone https://github.com/masonlet/starlet-starter.git
+cd starlet-starter
 ```
 
 ### 2. Create a Build Directory and Generate Build Files
