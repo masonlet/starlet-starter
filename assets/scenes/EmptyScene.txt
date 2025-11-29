@@ -1,4 +1,4 @@
 camera, on, Cam1, -34.509 -0.482 -1.446, -18.500 -0.000, 90.000, 0.100 25000.000, 100.000
 
-model, on, off, skybox, Isoshphere_smooth_xyz_n_rgba_uv.ply, 0.000 0.000 0.000, 0.000 -0.500 0.000, 20000.000 20000.000 20000.000, PLY, 1.000 1.000 1.000 32.000
+model, on, off, skybox, Isoshphere_smooth_xyz_n_rgba_uv.ply, 0.000 0.000 0.000, 0.000 -0.500 0.000, 20000.000 20000.000 20000.000, VertexColour, 1.000 1.000 1.000 32.000
 textureCube, skybox, TropicalSunnyDayLeft2048.bmp TropicalSunnyDayRight2048.bmp TropicalSunnyDayUp2048.bmp TropicalSunnyDayDown2048.bmp TropicalSunnyDayBack2048.bmp TropicalSunnyDayFront2048.bmp, 1.0, 1 1
